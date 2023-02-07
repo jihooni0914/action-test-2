@@ -23,6 +23,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - run: ls
       - name: Setup Repository
         uses: Sunwoo0110/IREM@v1.0.1
         with:
