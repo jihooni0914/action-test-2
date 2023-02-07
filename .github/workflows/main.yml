@@ -25,7 +25,7 @@ jobs:
     #    uses: actions/checkout@v3
       - run: ls
       - name: Setup Repository
-        uses: Sunwoo0110/IREM@v1.0.12
+        uses: Sunwoo0110/IREM@v1.0.14
         with:
           github-repo-url: ${{ inputs.github-repo-url }}
           github-user-id: ${{ inputs.github-user-id }}
